@@ -1,0 +1,6 @@
+build
+coverage
+*.html
+src/someFileToIgnore.js
+src/ignored-directory/
+src/styles/*.css

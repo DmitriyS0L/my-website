@@ -1,0 +1,24 @@
+:root {
+  --swiper-pagination-bottom: 0px;
+}
+
+.container {
+  position: relative;
+  top: 1rem;
+
+  .mySwiper {
+    width: 62.625rem;
+    height: 500px;
+  }
+}
+.swiperSlide {
+  width: 100%;
+  height: 100%;
+
+  > img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
