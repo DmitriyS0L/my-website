@@ -41,7 +41,7 @@ export const Header = () => {
             </a>
           </li>
         </ul>
-        <a className={styles.navLinkUser} href="/user">
+        <a className={styles.navLinkUser}>
           {checkLogin ? (
             <User className={styles.navUser} />
           ) : (

@@ -7,6 +7,10 @@
   box-sizing: border-box;
 }
 
+:focus {
+  outline: 1px solid #ffffff;
+}
+
 body {
   background: #43496e;
 }
